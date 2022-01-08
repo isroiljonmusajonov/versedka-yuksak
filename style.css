@@ -565,7 +565,14 @@ footer p {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 5px;
-    margin: 10px 15px;
+    margin: 10px 15px 20px 10px;
+  }
+  .our-box {
+    margin-top: 20px;
+  }
+  .our-box p {
+    font-size: 14px;
+    line-height: 22px;
   }
   .icon-cards img {
     width: 30px;
@@ -589,20 +596,25 @@ footer p {
   .silader p {
     font-size: 12px;
   }
+  .footer {
+    /* border: 1px solid red; */
+    margin: 150px auto 0px auto;
+  }
   footer h1 {
     font-size: 25px;
     margin: 50px 0px 0px 0px;
   }
   footer p {
-    font-size: 12px;
+    /* background-color: red; */
+    font-size: 15px;
   }
   .footer-img .imge-postion img {
-    width: 300px;
+    width: 280px;
   }
   .footer-img .imge-relativ img {
     position: absolute;
-    width: 320px;
-    top: -155px;
+    width: 290px;
+    top: -130px;
   }
   .login {
     margin-top: 20px;
