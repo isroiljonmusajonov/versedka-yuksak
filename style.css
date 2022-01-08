@@ -504,4 +504,43 @@ footer p {
     padding: 6px 10px;
     border-radius: 10px;
   }
+  section .section-img {
+    position: relative;
+    /* margin-top: 80px; */
+    margin: 80px auto 0px auto;
+  }
+  section .section-img img {
+    width: 350px;
+    /* border: 1px solid red; */
+    height: 350px;
+    position: relative;
+  }
+  section .section-img .img-postion {
+    position: relative;
+  }
+  section .section-img .img-relativ {
+    position: absolute;
+    top: -57px;
+  }
+  section .section-img .img-relativ img {
+    width: 100%;
+    height: 400px;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 9% 0px 9%;
+  }
+  .box-card {
+    margin: 10px auto;
+    width: 260px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    align-items: center;
+  }
 }
