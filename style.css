@@ -445,17 +445,49 @@ footer p {
   text-align: center;
   line-height: 23px;
 }
+nav {
+  position: relative;
+}
 .box-ss p span {
   color: var(--galabal-color);
+}
+@media (max-width: 520px) {
+  body {
+    width: 100%;
+  }
+  nav ul {
+    text-align: center;
+    display: block;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  nav {
+    transition: all 0.5s linear;
+    left: -150%;
+    position: absolute;
+    background: #003940;
+    width: 100%;
+    height: 85vh;
+    z-index: 2;
+  }
+  #nav.active {
+    left: 0%;
+  }
+  nav ul li a {
+    color: var(--gal-color);
+    position: relative;
+    font-weight: 700;
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 768px) {
   header .header-right-box {
     display: none;
   }
-  nav {
-    display: none;
-  }
+
   .underline {
     display: none;
   }
@@ -560,12 +592,18 @@ footer p {
     padding: 0px 3%;
   }
   .icon-cards {
-    width: 100px;
+    width: 90px;
     height: 80px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 5px;
     margin: 10px 15px 20px 10px;
+  }
+  .icon-container #h2 {
+    font-size: 16px;
+  }
+  .icon-cards h2 {
+    font-size: 13px;
   }
   .our-box {
     margin-top: 20px;
@@ -580,13 +618,13 @@ footer p {
   }
   .text-box-title h3 {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: -5px;
     color: var(--gal-color);
   }
   .text-box h3 {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 15px;
     color: var(--gal-color);
   }
   .silader h1 {
@@ -608,6 +646,7 @@ footer p {
     /* background-color: red; */
     font-size: 15px;
   }
+
   .footer-img .imge-postion img {
     width: 280px;
   }
