@@ -23,6 +23,10 @@ header .header-title {
   display: flex;
   align-items: center;
 }
+header .title h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
 header .title h1 span {
   color: var(--galabal-color);
 }
@@ -507,9 +511,7 @@ nav {
     font-size: 30px;
   }
 }
-.box-h4 #h2 {
-  color: red;
-}
+
 .border {
   border: 12px solid red;
 }
@@ -539,8 +541,12 @@ nav {
     margin-top: 10px;
     font-size: 17px;
   }
+  header .title h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
   section .section-box .section-box-bottom .btn-1 {
-    padding: 6px 10px;
+    padding: 10px 10px;
     border-radius: 10px;
     border: 1px solid var(--galabal-color);
     color: var(--galabal-color);
@@ -551,7 +557,7 @@ nav {
   }
   section .section-box .section-box-bottom .btn {
     font-size: 11px;
-    padding: 6px 10px;
+    padding: 10px 10px;
     border-radius: 10px;
   }
   section .section-img {

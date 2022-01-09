@@ -142,6 +142,10 @@
 }
 
 @media (max-width: 515px) {
+  .wi {
+    margin: auto;
+    /* border: 1px solid red; */
+  }
   .imgs2 {
     margin-left: 10px;
   }
