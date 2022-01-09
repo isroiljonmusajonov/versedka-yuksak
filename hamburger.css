@@ -137,6 +137,10 @@
 .box-h4 h4 {
   cursor: pointer;
 }
+.cc {
+  color: #fff;
+}
+
 @media (max-width: 515px) {
   .imgs2 {
     margin-left: 10px;

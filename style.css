@@ -507,6 +507,15 @@ nav {
     font-size: 30px;
   }
 }
+.box-h4 #h2 {
+  color: red;
+}
+.border {
+  border: 12px solid red;
+}
+.wi {
+  width: 270px !important;
+}
 @media (max-width: 515px) {
   header .title-p {
     border-left: 2px solid #ffffff81;

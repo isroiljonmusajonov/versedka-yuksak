@@ -11,6 +11,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    />
   </head>
   <body>
     <!-- header-qimi -->
@@ -44,8 +52,8 @@
     <!-- navbar-qismi -->
     <nav id="nav">
       <ul>
-        <li><a href="#">Выезд мастера</a></li>
-        <li><a href="#">Цены</a></li>
+        <li><a href="#card">Выезд мастера</a></li>
+        <li><a href="#card">Цены</a></li>
         <li><a href="#">Отзывы</a></li>
         <li><a href="#">Диагностика</a></li>
       </ul>
@@ -73,7 +81,7 @@
       </div>
     </section>
     <div class="box">
-      <div class="box-card">
+      <div class="box-card" id="card">
         <div>
           <img src="./img/icons-img/clock (3) 1soat.png" alt="" />
         </div>
@@ -109,7 +117,7 @@
     <div class="icon-container">
       <h1>
         Узнайте стоимость ремонта и получите <span>скидку</span><br />
-        <span>500 руб</span>при первом обращении
+        <span>500 руб </span>при первом обращении
       </h1>
       <div class="underline-div"></div>
       <p>
@@ -118,12 +126,18 @@
       </p>
       <div>
         <div class="box-h4">
-          <h4 id="box1">Вопрос 1</h4>
-          <h4 class="h44" id="box2">Вопрос 2</h4>
-          <h4 class="h44" id="box3">Вопрос 3</h4>
+          <h4 id="box1" style="font-size: 18px; font-weight: 600">Вопрос 1</h4>
+          <h4 class="h44" id="box2" style="font-size: 18px; font-weight: 600">
+            Вопрос 2
+          </h4>
+          <h4 class="h44" id="box3" style="font-size: 18px; font-weight: 600">
+            Вопрос 3
+          </h4>
         </div>
         <div id="Вопрос1 active">
-          <h2 id="h2">1.Укажите марку стиральной</h2>
+          <h2 id="h2" style="font-size: 25px; font-weight: bold">
+            1.Укажите марку стиральной
+          </h2>
           <div class="cards">
             <div class="icon-cards">
               <img src="./img/iconka/_hd.png" alt="" />
@@ -189,20 +203,21 @@
         </div>
         <div id="Вопрос2">
           <div>
-            <h2 id="h2">2.Укажите марку стиральной</h2>
+            <h2 id="h2" class="h22" style="font-size: 25px; font-weight: bold">
+              2.Укажите марку стиральной
+            </h2>
           </div>
           <div class="imges">
             <div class="img-box">
               <img src="./Rectangle 1494jkb.png" alt="" />
-              <!-- <div class="hovers">
-                <h3>samsung</h3>
-              </div> -->
             </div>
           </div>
         </div>
         <div id="Вопрос3">
           <div>
-            <h2 id="h2">3.Укажите тип загрузки белья</h2>
+            <h2 id="h2" style="font-size: 25px; font-weight: bold">
+              3.Укажите тип загрузки белья
+            </h2>
           </div>
           <div class="imges">
             <div class="img-boxx">
@@ -296,6 +311,171 @@
       </p>
       <div class="www"></div>
     </div> -->
+    <div class="borde">
+      <section class="pt-20 pb-20">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold cc">Here are our heroes</h2>
+            <p class="text-lg leading-relaxed m-4 text-blueGray-500">
+              According to the National Oceanic and Atmospheric Administration,
+              Ted, Scambos, NSIDClead scentist, puts the potentially record
+              maximum.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-8 wi">
+            <div class="px-6">
+              <img
+                alt="..."
+                src="https://demos.creative-tim.com/notus-js/assets/img/team-1-800x800.jpg"
+                class="shadow-lg rounded-full mx-auto max-w-120-px"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold text-blueGray-700">
+                  Ryan Tompson
+                </h5>
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
+                  Web Developer
+                </p>
+                <div class="mt-6">
+                  <button
+                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-twitter"></i></button
+                  ><button
+                    class="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-facebook-f"></i></button
+                  ><button
+                    class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-dribbble"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-8 wi">
+            <div class="px-6">
+              <img
+                alt="..."
+                src="https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg"
+                class="shadow-lg rounded-full mx-auto max-w-120-px"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold text-blueGray-700">
+                  Romina Hadid
+                </h5>
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
+                  Marketing Spelist
+                </p>
+                <div class="mt-6">
+                  <button
+                    class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-google"></i></button
+                  ><button
+                    class="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-8 wi">
+            <div class="px-6">
+              <img
+                alt="..."
+                src="https://demos.creative-tim.com/notus-js/assets/img/team-3-800x800.jpg"
+                class="shadow-lg rounded-full mx-auto max-w-120-px"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold text-blueGray-700">Alexa Smith</h5>
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
+                  UI/UX Designer
+                </p>
+                <div class="mt-6">
+                  <button
+                    class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-google"></i></button
+                  ><button
+                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-twitter"></i></button
+                  ><button
+                    class="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-8 wi">
+            <div class="px-6">
+              <img
+                alt="..."
+                src="https://demos.creative-tim.com/notus-js/assets/img/team-4-470x470.png"
+                class="shadow-lg rounded-full mx-auto max-w-120-px"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold text-blueGray-700">Jenna Kardi</h5>
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
+                  Founder and CEO
+                </p>
+                <div class="mt-6">
+                  <button
+                    class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-dribbble"></i></button
+                  ><button
+                    class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-google"></i></button
+                  ><button
+                    class="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-twitter"></i></button
+                  ><button
+                    class="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- lsapsd;ksm -->
     <footer>
       <h1>
         После диагностики мастер огласит стоимость <br />
